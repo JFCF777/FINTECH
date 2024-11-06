@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fintech - Services</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 36px;
+        }
+        .services {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .services h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        .services-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .service-item {
+            background-color: white;
+            width: 60%;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .service-item h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .service-item p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .btn {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Our Services</h1>
+    </header>
+
+    <section class="services">
+        <h2>What We Offer</h2>
+        <div class="services-container">
+
+            <!-- Servicio: Trámites -->
+            <div class="service-item">
+                <h3>Trámites Financieros</h3>
+                <p>Realiza todos tus trámites financieros, desde transferencias hasta pagos de servicios, de manera rápida y segura.</p>
+                <button id="tramites-btn" class="btn">Iniciar Trámite</button>
+            </div>
+
+            <!-- Servicio: Estado de Cuenta -->
+            <div class="service-item">
+                <h3>Consulta de Estado de Cuenta</h3>
+                <p>Consulta el estado de tu cuenta en tiempo real, con detalles de todas tus transacciones y balances actualizados.</p>
+                <button id="estado-cuenta-btn" class="btn">Ver Estado de Cuenta</button>
+            </div>
+
+            <!-- Servicio: Crear Ahorro -->
+            <div class="service-item">
+                <h3>Crear Cuenta de Ahorro</h3>
+                <p>Ahorra de manera eficiente con nuestras cuentas de ahorro personalizadas que ofrecen las mejores tasas de interés.</p>
+                <button id="crear-ahorro-btn" class="btn">Abrir Cuenta de Ahorro</button>
+            </div>
+
+            <!-- Servicio: Préstamos -->
+            <div class="service-item">
+                <h3>Solicitar Préstamo</h3>
+                <p>Accede a préstamos con condiciones flexibles y tasas de interés competitivas para cubrir todas tus necesidades financieras.</p>
+                <button id="prestamos-btn" class="btn">Solicitar Préstamo</button>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+</html>
